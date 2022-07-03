@@ -56,7 +56,7 @@ export default createStore({
       state.uiState = uistate
     },
     pickQuestion(state, character){
-      character === state.character ? state.score += 15 : state.score -= 15
+      character === state.character ? state.score += 13 : state.score -= 13
 
       if(state.questionIndex < state.questions.length -1) {
         state.questionIndex++
@@ -65,6 +65,11 @@ export default createStore({
           ? (state.uiState = 'won' )
           : (state.uiState = 'lost')
       }
-    }
+    },
+    restartGame(state) {
+      state.uiState = "start"
+      state.score = 0
+      state.questionIndex = 0
+    },
   }
 })
