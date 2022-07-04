@@ -1,19 +1,7 @@
 # aliengame
 
-## Project setup
-```
-npm install
-```
+Little game project from the course 'Building Applications with Vue & Nuxt' of FrontendMasters.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Course's author: Sarah Drasner.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- https://github.com/sdras.
